@@ -80,7 +80,10 @@ footer a {
   color: #024e76;
 }
 /* END FOOTER STYLES */
-
+.steps {
+  text-align: center;
+  background: #fce138;
+}
 /* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
