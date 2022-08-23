@@ -1,62 +1,43 @@
+/* SECONDARY PAGE STYLES */
 .hero {
-    background-image: url(../images/hero-bg.jpg);
-    background-size: cover;
     background-position: bottom;
-    position: relative;
     height: auto;
     text-align: center;
     margin-bottom: 40px;
   }
-
+  
   .page-title {
+    padding: 0 80px 15px 80px;
+    font-size: 42px;
+    font-weight: 400;
+    font-style: italic;
     color: #fce138;
     display: inline-block;
-    border-bottom: 4px solid currentColor;
-    padding-top: 0;
-    padding-right: 80px;
-    padding-bottom: 15px;
-    padding-left: 80px;
-    font-weight: normal;
-    font-size: 42px;
-    font-style: italic;
-}
-
-.secondary-content {
+    border-bottom: 4px solid #fce138;
+  }
+  
+  .secondary-content {
     width: 80%;
-    margin: 0;
+    margin: 0 auto;
     color: #024e76;
-}
-
-.secondary-content h3 {
+  }
+  
+  .secondary-content h3 {
     font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.secondary-content p {
+    margin: 20px 0;
+  }
+  
+  .secondary-content p {
     font-size: 16px;
     line-height: 1.5;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.secondary-content ul {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.secondary-content li {
+    margin: 20px 0;
+  }
+  
+  .secondary-content ul {
+    margin: 15px 20px;
+  }
+  
+  .secondary-content li {
     color: #39a6b2;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-
+    margin: 10px 0;
+  }
